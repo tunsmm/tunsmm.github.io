@@ -1,0 +1,193 @@
+html, body {
+	min-height: 100vh;
+}
+
+blockquote {
+	border-left: 3px solid lightgray;
+}
+
+.accordion, 
+.card-body {
+	background-color:  #FFFFFF;
+	border:  2px solid #DDE0E6;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #4f4f4f;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2375E1;
+}
+
+
+.paddings {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.wrapper {
+	display: flex;
+	background-color: #F4F7FB;
+}
+
+.column-left {
+	flex-basis: 100%;
+}
+
+.column-right {
+	flex-basis: 50%;
+}
+
+.text-username {
+	font-size: 1.5rem
+}
+
+.text-userjob {
+	color: rgba(0,0,0,.55);
+}
+
+.color-quotecaption {
+	color: #757575;
+}
+
+.navbar {
+	border-bottom:  1px solid #DDE0E6;
+}
+
+.navbar-light .navbar-nav .highlighted-link{
+	color: #2375E1;
+    border-bottom: 4px solid #2375E1;
+}
+
+.navbar-nopaddings-y {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.navbar-margin-t-and-b {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+.user-image {
+	display: inline-block; 
+	height: 50%;
+    width: 50%;
+    border-radius: 80px;
+}
+	
+
+.navig {
+    border: 1px solid #DDE0E6;
+    width: 20%;
+    height: 42%;
+    margin-left: 3%;
+    margin-top: 1%;
+    background-color: #FFFFFF;
+    clear: left;
+}
+.navig p{
+    border: 1px solid #000;
+    padding-left: 2%;
+    font-size: 150%;
+}
+
+.active {
+	visibility: inherit 
+}
+
+.inactive {
+	display: none 
+}
+
+.float-left {
+	float: left 
+}
+	
+.float-right {
+	float: right 
+}
+
+.map-block {
+	display: inline-block; 
+	margin-left: 32px; 
+	margin-right: 32px;
+	margin-top: 24px; 
+	min-width: 1400px; 
+	max-width: 1400px;
+	min-height: 476px;
+	background-color: white;
+	border: 1px solid #dde0e6;
+}
+.map-header {
+	font-family: Roboto; 
+	display: inline-block; 
+	width: 1366px; 
+	height: 20px; 
+	line-height: 20px; 
+	margin-left: 16px; 
+	margin-top: 16px; 
+	margin-right: 16px; 
+	vertical-align: bottom; 
+}
+.map {
+	width: 1366px;
+	height: 600px; 
+	margin: 0px 16px; 
+	margin-top: 16px; 
+}
+
+.timer-header {
+	display: inline-block;
+	width: 1400px; 
+	height: 20px;
+	margin-left: 16px; 
+	margin-top: 16px;
+	margin-right: 16px;
+	vertical-align: bottom;
+	font-family: Roboto; 
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.005em;
+	color: #2D2F33;
+}
+.timer-block {
+	text-align: left; 
+	display: inline-block; 
+	margin-left: 32px; 
+	margin-right: 32px; 
+	margin-top: 24px; 
+	min-width: 1400px; 
+	max-width: 1400px; 
+	min-height: 88px;
+	border: 1px solid #dde0e6;
+}
+.timer {
+	margin: 16px 0;
+	margin-left: 16px; 
+}
+
+
+.item:hover { 
+	color: #3f4146; 
+}
+
+.active-item {
+	cursor: pointer; 
+	display: inline-block; 
+	font-family: Roboto; 
+	font-style: normal; 
+	font-weight: 500; 
+	font-size: 14px; 
+	line-height: 20px; 
+	color: #2375e1; 
+	border-bottom: solid;
+	border-bottom-color: #2375e1;
+	border-bottom-width: 2px;
+}
+		
+
+
